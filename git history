@@ -1,0 +1,107 @@
+ 1  mkdir zomato
+    2  cd zomato
+    3  yum install git -y
+    4  gitinit
+    5  git init
+    6  git branch -m branch-1
+    7  touch movie{1..5}
+    8  git add *
+    9  git config user.name "bujji"
+   10  git config user.emai "sivaprince784@gmail.com"
+   11  git commit -m "dev-1 commits" *
+   12  git checkout -b branch-2
+   13  ll
+   14  touch train{1..5}
+   15  git add *
+   16  git commit -m "dev-2 commits" *
+   17  ll
+   18  git checkout -b branch-3
+   19  ll
+   20  touch loan{1..5}
+   21  git add *
+   22  git commit -m "dev-3 commits" *
+   23  git checkout -b branch-1
+   24  git checkout branch-1
+   25  ll
+   26  git checkout -b branch-4
+   27  dth{1..5}
+   28  touch dth{1..5}
+   29  git add *
+   30  git commit -m "dev-4 commits" *
+   31  git branch
+   32  git remote add origin https://github.com/sivaprince784/git-daily-practice.git
+   33  git checkout branch-1
+   34  ll
+   35  git push origin branch-1
+   36  git checkout branch-2
+   37  ll
+   38  git push origin branch-2
+   39  git checkout branch-3
+   40  ll
+   41  git push origin branch-3
+   42  git checkout branch-4
+   43  ll
+   44  git push origin branch-4
+   45  git status
+   46  yum install git -y
+   47  git status
+   48  ll
+   49  cd zomato
+   50  ll
+   51  git branch
+   52  git checkout branch-1
+   53  ll
+   54  git merge branch-2
+   55  git branch
+   56  ll
+   57  git revert branch -2
+   58  git revert branch-2
+   59  git branch
+   60  ll
+   61  yum install git -y
+   62  git init
+   63  cd zomato
+   64  ll
+   65  git branch
+   66  git checkout branch-2
+   67  ll
+   68  git pull origin branch-2
+   69  ll
+   70  git branch
+   71  git pull origin branch-2
+   72  cat dth1
+   73  ll
+   74  git clone https://github.com/sivaprince784/load-forecasting.git
+   75  ll
+   76  cd load-forecasting
+   77  ll
+   78  cd zomato
+   79  cd
+   80  cd zomato
+   81  ll
+   82  git branch
+   83  git checkout branch-3
+   84  ll
+   85  git log
+   86  git show d6b799240c8c85edf4d373f7e69e562fc1702244
+   87  git init
+   88  git branch
+   89  ll
+   90  cd zomato
+   91  git branch
+   92  git log
+   93  git show d6b799240c8c85edf4d373f7e69e562fc1702244
+   94  git checkout branch-4
+   95  ll
+   96  git cherry-pick d6b799240c8c85edf4d373f7e69e562fc1702244
+   97  touch siva
+   98  git add siva
+   99  git status
+  100  git restore --staged siva
+  101  git status
+  102  git add siva
+  103  git status
+  104  git rm -cached siva
+  105  git rm --cached siva
+  106  git status
+  
