@@ -1,0 +1,30 @@
+ git init
+    2  git branch
+    3  ll
+    4  cd swiggy
+    5  ll
+    6  git branch
+    7  vim file1
+    8  git add file1
+    9  gitb commit -m "commit-3" file1
+   10  git commit -m "commit-3" file1
+   11  git checkout branch-2
+   12  cd file1
+   13  cat file1
+   14  git checkout branch-1
+   15  cat file1
+   16  git merge bramch-2
+   17  git merge branch-2
+   18  git diff file1
+   19  vim file1
+   20  git add file1
+   21  git commit -m "commit-4"
+   22  git status
+   23  git add file1
+   24  git status
+   25  git add
+   26  git add file1
+   27  git commit -m"commit-5" file1
+   28  cat file1
+   29  git config
+   30  history
