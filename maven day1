@@ -1,0 +1,28 @@
+
+   cat src/test/java/devops/AppTest.java
+   cd apache-maven-3.6.3/
+   cd paytm
+   tree
+   cat src/main/java/devops/App.java
+   cat src/test/java/devops/AppTest.java
+   mvn install
+   cd root/.m2/repository/ccit/paytm/1.0-SNAPSHOT/
+   mvn install
+   cd root/.m2/repository/ccit/paytm/1.0-SNAPSHOT
+   ll
+   cd apache-maven-3.6.3/
+   cd paytm
+   tree
+   mvn install
+   ll
+   cd root/.m2/repository/ccit/paytm/1.0-SNAPSHOT/paytm-1.0-SNAPSHOT.jar
+   cd root/.m2/repository/ccit/paytm/1.0-SNAPSHOT
+   tree
+   cd apache-maven-3.6.3/
+   cd paytm
+   tree
+   mvn install
+   cd apache-maven-3.6.3/
+   cd paytm
+   ll
+   history
